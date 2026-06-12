@@ -3,33 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bruss Loza - HUB de links</title>
+    <title>Bruss Loza | HUB de Links</title>
     <link rel="icon" href="favicon.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
+    <main class="container">
 
-        <img src="FotoPerfil.jpg" alt="Foto de perfil" class="profile">
+        <section class="profile-card">
+            <img src="FotoPerfil.png" alt="Foto de perfil de Bruss Loza" class="profile">
 
-        <h1>Bruss Loza</h1>
-        <p>Meus links</p>
+            <h1>Bruss Loza</h1>
+            <p class="subtitle">Técnico em Informática | Redes, Infraestrutura e Desenvolvimento</p>
+        </section>
 
-        <div class="links">
-            <a href="https://www.instagram.com/b.bruss_/" target="_blank" class="link">📸 Instagram</a>
+        <section class="links">
+            <a href="https://www.instagram.com/b.bruss_/" target="_blank" rel="noopener noreferrer" class="link instagram">
+                📸 Instagram
+            </a>
 
-            <a href="https://www.linkedin.com/in/bruss-loza-091053382/" target="_blank" class="link">💼 LinkedIn</a>
+            <a href="https://www.linkedin.com/in/bruss-loza-091053382/" target="_blank" rel="noopener noreferrer" class="link linkedin">
+                💼 LinkedIn
+            </a>
 
-            <a href="https://www.youtube.com/@lbruss1" target="_blank" class="link">🎥 YouTube</a>
-        </div>
+            <a href="https://www.youtube.com/@lbruss1" target="_blank" rel="noopener noreferrer" class="link youtube">
+                🎥 YouTube
+            </a>
 
-        <div class="projects">
-            <h2>🚀 Meus Projetos</h2>
-            <div id="repos"></div>
-        </div>
+            <a href="https://github.com/lbruss" target="_blank" rel="noopener noreferrer" class="link github">
+                💻 GitHub
+            </a>
+        </section>
 
-    </div>
+        <section class="projects">
+            <h2>🚀 PROJETOS</h2>
+            <div id="repos" class="repos"></div>
+        </section>
+
+    </main>
 
     <script src="script.js"></script>
 </body>
