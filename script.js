@@ -12,7 +12,7 @@ const descricoes = {
     "robo-desvia": "Projeto com Arduino e robótica.",
     "lab-redes01": "Laboratório prático de redes.",
     "lab-redes02": "Segundo laboratório de redes.",
-    "integrator-project1": "Projeto Integrador ConnectStar.",
+    "integrator-project1": "Projeto Integrador | ConnectStar.",
     "projetos-js": "Projetos desenvolvidos em JavaScript."
 };
 
